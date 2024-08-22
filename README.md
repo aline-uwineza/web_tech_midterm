@@ -23,7 +23,7 @@ The Job Portal Web Application is a platform built with Spring Boot 3, Spring MV
 
 ## Screenshots
 
-![Screenshot (145)](https://github.com/user-attachments/assets/9e533bbe-b84c-40fd-aea0-c1e0b7158a3c)
+![Screenshot (157)](https://github.com/user-attachments/assets/d98f2535-842e-4515-b775-48c43bcc1d18)
 ![Screenshot (146)](https://github.com/user-attachments/assets/be3950b0-33ce-4bd3-9e16-78e2b4dfd9f1)
 ![Screenshot (147)](https://github.com/user-attachments/assets/21e286bc-d865-4ae8-a3e1-ad82d3accdae)
 ![Screenshot (148)](https://github.com/user-attachments/assets/0602d7fe-3997-4a0f-8e8b-d1449c2a2d6d)

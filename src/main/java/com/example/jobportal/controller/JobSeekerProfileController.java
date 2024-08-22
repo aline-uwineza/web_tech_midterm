@@ -129,7 +129,10 @@ public class JobSeekerProfileController {
     public String candidateProfile(@PathVariable("id") int id, Model model) {
 
         Optional<JobSeekerProfile> seekerProfile = jobSeekerProfileService.getOne(id);
+        Object currentUserProfile = usersService.getCurrentUserProfile();
+
         model.addAttribute("profile", seekerProfile.get());
+        model.addAttribute("user", currentUserProfile);
         return "job-seeker-profile";
     }
 

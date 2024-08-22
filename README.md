@@ -24,4 +24,4 @@ The Job Portal Web Application is a platform built with Spring Boot 3, Spring MV
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <Your GitHub Repository URL>
+   git clone https://github.com/Suraj9921/job-portal-web-app.git

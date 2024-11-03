@@ -98,34 +98,20 @@
                                 Full-Time
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    value=""
-                                    id="freelance"
-                                    th:value="Freelance"
-                                    name="freelance"
-                                    th:checked="${freelance}"
-                            />
-                            <label class="form-check-label" for="freelance">
-                                Freelance
-                            </label>
-                        </div>
                     </div>
                     <div class="col-lg-12 mt-5">
-                        <label>Remote</label>
+                        <label>Job type</label>
                         <div class="form-check">
                             <input
                                     class="form-check-input"
                                     type="checkbox"
                                     id="remote-only"
-                                    th:value="Remote-Only"
+                                    th:value="House-Only"
                                     name="remoteOnly"
                                     th:checked="${remoteOnly}"
                             />
                             <label class="form-check-label" for="remote-only">
-                                Remote-Only
+                                House-Only
                             </label>
                         </div>
                         <div class="form-check">
@@ -146,12 +132,12 @@
                                     class="form-check-input"
                                     type="checkbox"
                                     id="partial-remote"
-                                    th:value="Partial-Remote"
+                                    th:value="Houseandcaretaking"
                                     name="partialRemote"
                                     th:checked="${partialRemote}"
                             />
                             <label class="form-check-label" for="partial-remote">
-                                Partial-Remote
+                                House and care taking
                             </label>
                         </div>
                     </div>

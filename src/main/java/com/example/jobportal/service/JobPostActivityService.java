@@ -52,6 +52,13 @@ public class JobPostActivityService {
     }
 
     public void deleteJobPost(int id) {
+        long applicationCount = jobPostActivityRepository.countApplicationsByJobPostId(id);
+
+        if (applicationCount > 0) {
+            throw new RuntimeException("Job has already been applied to and cannot be deleted.");
+        }
+
         jobPostActivityRepository.deleteById(id);
     }
+
 }

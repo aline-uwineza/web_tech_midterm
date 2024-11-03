@@ -47,4 +47,7 @@ public interface JobPostActivityRepository extends JpaRepository<JobPostActivity
                                  @Param("remote") List<String> remote,
                                  @Param("type") List<String> type,
                                  @Param("date") LocalDate searchDate);
+    @Query(value = "SELECT COUNT(s.user_id) FROM job_seeker_apply s WHERE s.job = :jobPostId", nativeQuery = true)
+    long countApplicationsByJobPostId(@Param("jobPostId") int jobPostId);
+
 }

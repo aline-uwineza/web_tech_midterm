@@ -20,7 +20,7 @@
 
 <header class="navbar navbar-expand-lg navbar-dark">
     <label class="mt-2 ms-5 font-weight-bold h5"
-    ><a th:href="@{/dashboard/}">Career </a
+    ><a th:href="@{/dashboard/}">Housemaid </a
     ><span class="logo_com font-weight-bold h5" style="color: white">
           Connect</span
     ></label
@@ -95,14 +95,14 @@
                 <h4 th:text="${jobDetails.jobTitle}" class="job-title text-center">Software Engineer</h4>
                 <div class=" text-center mt-1">
                     <p th:text="${jobDetails.jobLocationId.city+', '+ jobDetails.jobLocationId.state}"
-                       class="m-0"> California, USA</p>
-                    <p th:text="${jobDetails.jobCompanyId.name}">Company</p>
+                       class="m-0"> Kigali, Rwanda</p>
+                    <p th:text="${jobDetails.jobCompanyId.name}">Company Name or individual</p>
                 </div>
             </div>
         </div>
 
         <div class="text-center box mt-3 container">
-            <label class="large-label px-3 mt-3"> Job Specs </label>
+            <label class="large-label px-3 mt-3"> Job Specifications </label>
 
             <div class="job-row" style="border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; border-radius: 5px; background-color: #ffffff;">
                 <div class="row">
@@ -110,7 +110,7 @@
                     <div class="col-md-3" style="padding: 10px; display: flex; align-items: center;">
                         <label class="text-left" style="font-weight: bold;">
                             Date Posted:
-                            <span th:text="${jobDetails.postedDate}" style="font-weight: normal;">12 Nov, 2030</span>
+                            <span th:text="${jobDetails.postedDate}" style="font-weight: normal;">12 october, 2024</span>
                         </label>
                     </div>
 
@@ -133,7 +133,7 @@
                     <!-- Remote -->
                     <div class="col-md-3 text-right" style="padding: 10px; display: flex; align-items: center; justify-content: flex-end;">
                         <label style="font-weight: bold;">
-                            Remote:
+                            Job type:
                             <span th:text="${jobDetails.remote}" style="font-weight: normal;">Remote</span>
                         </label>
                     </div>
